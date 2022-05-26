@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
-import { Meta } from '@/components/Meta';
-import { Main } from '@/layouts/Main';
+import Meta from '@/components/Meta';
+import Main from '@/layouts/Main';
 
 interface Props {}
 

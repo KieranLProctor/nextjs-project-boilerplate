@@ -20,4 +20,4 @@ const Main: React.FC<Props> = (props) => (
   </div>
 );
 
-export { Main };
+export default Main;

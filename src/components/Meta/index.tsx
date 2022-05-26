@@ -63,4 +63,4 @@ const Meta: React.FC<Props> = (props) => {
   );
 };
 
-export { Meta };
+export default Meta;
