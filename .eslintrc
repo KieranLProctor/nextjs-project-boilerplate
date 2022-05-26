@@ -7,7 +7,7 @@
   ],
   "rules": {
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         "singleQuote": true,
         "endOfLine": "auto"
@@ -35,7 +35,7 @@
       },
       "rules": {
         "prettier/prettier": [
-          "error",
+          "warn",
           {
             "singleQuote": true,
             "endOfLine": "auto"
@@ -55,7 +55,8 @@
           {
             "officialSorting": true
           }
-        ], // Follow the same ordering as the official plugin `prettier-plugin-tailwindcss`
+        ],
+        "tailwindcss/no-custom-classname": "off",
         "simple-import-sort/imports": "error", // Import configuration for `eslint-plugin-simple-import-sort`
         "simple-import-sort/exports": "error", // Export configuration for `eslint-plugin-simple-import-sort`
         "@typescript-eslint/no-unused-vars": "off",
